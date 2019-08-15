@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6EC6D822C92795000DCE9D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6EC6D622C92795000DCE9D /* Interface.storyboard */; };
+		0A6EC6DA22C92796000DCE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6EC6D922C92796000DCE9D /* Assets.xcassets */; };
+		0A6EC6E122C92796000DCE9D /* BookStoreWatchN Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A6EC6E022C92796000DCE9D /* BookStoreWatchN Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A6EC6E622C92796000DCE9D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6EC6E522C92796000DCE9D /* InterfaceController.swift */; };
+		0A6EC6E822C92796000DCE9D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6EC6E722C92796000DCE9D /* ExtensionDelegate.swift */; };
+		0A6EC6EA22C92797000DCE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6EC6E922C92797000DCE9D /* Assets.xcassets */; };
+		0A6EC6EE22C92797000DCE9D /* BookStoreWatchN.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0A6EC6D422C92795000DCE9D /* BookStoreWatchN.app */; };
+		0A8127A622C9129B00DE081A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8127A522C9129B00DE081A /* AppDelegate.swift */; };
+		0A8127A822C9129B00DE081A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8127A722C9129B00DE081A /* ViewController.swift */; };
+		0A8127AB22C9129B00DE081A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8127A922C9129B00DE081A /* Main.storyboard */; };
+		0A8127AD22C9129C00DE081A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8127AC22C9129C00DE081A /* Assets.xcassets */; };
+		0A8127B022C9129C00DE081A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8127AE22C9129C00DE081A /* LaunchScreen.storyboard */; };
+		0A8127B522C9129C00DE081A /* BookStoreWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0A8127B422C9129C00DE081A /* BookStoreWatch WatchKit App.app */; };
+		0A8127BB22C9129D00DE081A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8127B922C9129D00DE081A /* Interface.storyboard */; };
+		0A8127BD22C9129D00DE081A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8127BC22C9129D00DE081A /* Assets.xcassets */; };
+		0A8127C422C9129D00DE081A /* BookStoreWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A8127C322C9129D00DE081A /* BookStoreWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A8127C922C9129D00DE081A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8127C822C9129D00DE081A /* InterfaceController.swift */; };
+		0A8127CB22C9129D00DE081A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8127CA22C9129D00DE081A /* ExtensionDelegate.swift */; };
+		0A8127CD22C9129E00DE081A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8127CC22C9129E00DE081A /* Assets.xcassets */; };
+		0A8127E222C9161800DE081A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8127E022C9161800DE081A /* Book.swift */; };
+		0A8127E322C9161800DE081A /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8127E122C9161800DE081A /* BookStore.swift */; };
+		0A8127E522C91D1600DE081A /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8127E422C91D1600DE081A /* DetailController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A6EC6E222C92796000DCE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A81279A22C9129B00DE081A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A6EC6DF22C92796000DCE9D;
+			remoteInfo = "BookStoreWatchN Extension";
+		};
+		0A6EC6EC22C92797000DCE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A81279A22C9129B00DE081A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A6EC6D322C92795000DCE9D;
+			remoteInfo = BookStoreWatchN;
+		};
+		0A8127B622C9129C00DE081A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A81279A22C9129B00DE081A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8127B322C9129C00DE081A;
+			remoteInfo = "BookStoreWatch WatchKit App";
+		};
+		0A8127C522C9129D00DE081A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A81279A22C9129B00DE081A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8127C222C9129D00DE081A;
+			remoteInfo = "BookStoreWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A6EC6F422C92797000DCE9D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A6EC6E122C92796000DCE9D /* BookStoreWatchN Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8127D422C9129E00DE081A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A8127C422C9129D00DE081A /* BookStoreWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8127D822C9129E00DE081A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0A8127B522C9129C00DE081A /* BookStoreWatch WatchKit App.app in Embed Watch Content */,
+				0A6EC6EE22C92797000DCE9D /* BookStoreWatchN.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A6EC6D422C92795000DCE9D /* BookStoreWatchN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStoreWatchN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6EC6D722C92795000DCE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0A6EC6D922C92796000DCE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6EC6DB22C92796000DCE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6EC6E022C92796000DCE9D /* BookStoreWatchN Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BookStoreWatchN Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6EC6E522C92796000DCE9D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0A6EC6E722C92796000DCE9D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0A6EC6E922C92797000DCE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6EC6EB22C92797000DCE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8127A222C9129B00DE081A /* BookStoreWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStoreWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8127A522C9129B00DE081A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A8127A722C9129B00DE081A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A8127AA22C9129B00DE081A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A8127AC22C9129C00DE081A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A8127AF22C9129C00DE081A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A8127B122C9129C00DE081A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8127B422C9129C00DE081A /* BookStoreWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BookStoreWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8127BA22C9129D00DE081A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0A8127BC22C9129D00DE081A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A8127BE22C9129D00DE081A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8127C322C9129D00DE081A /* BookStoreWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BookStoreWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8127C822C9129D00DE081A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0A8127CA22C9129D00DE081A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0A8127CC22C9129E00DE081A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A8127CE22C9129E00DE081A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8127E022C9161800DE081A /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = ../../../BookStore/BookStore/Models/Book.swift; sourceTree = "<group>"; };
+		0A8127E122C9161800DE081A /* BookStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
+		0A8127E422C91D1600DE081A /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6EC6DD22C92796000DCE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A81279F22C9129B00DE081A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8127C022C9129D00DE081A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6EC6D522C92795000DCE9D /* BookStoreWatchN */ = {
+			isa = PBXGroup;
+			children = (
+				0A6EC6D622C92795000DCE9D /* Interface.storyboard */,
+				0A6EC6D922C92796000DCE9D /* Assets.xcassets */,
+				0A6EC6DB22C92796000DCE9D /* Info.plist */,
+			);
+			path = BookStoreWatchN;
+			sourceTree = "<group>";
+		};
+		0A6EC6E422C92796000DCE9D /* BookStoreWatchN Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A6EC6E522C92796000DCE9D /* InterfaceController.swift */,
+				0A6EC6E722C92796000DCE9D /* ExtensionDelegate.swift */,
+				0A6EC6E922C92797000DCE9D /* Assets.xcassets */,
+				0A6EC6EB22C92797000DCE9D /* Info.plist */,
+			);
+			path = "BookStoreWatchN Extension";
+			sourceTree = "<group>";
+		};
+		0A81279922C9129B00DE081A = {
+			isa = PBXGroup;
+			children = (
+				0A8127A422C9129B00DE081A /* BookStoreWatch */,
+				0A8127B822C9129D00DE081A /* BookStoreWatch WatchKit App */,
+				0A8127C722C9129D00DE081A /* BookStoreWatch WatchKit Extension */,
+				0A6EC6D522C92795000DCE9D /* BookStoreWatchN */,
+				0A6EC6E422C92796000DCE9D /* BookStoreWatchN Extension */,
+				0A8127A322C9129B00DE081A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8127A322C9129B00DE081A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8127A222C9129B00DE081A /* BookStoreWatch.app */,
+				0A8127B422C9129C00DE081A /* BookStoreWatch WatchKit App.app */,
+				0A8127C322C9129D00DE081A /* BookStoreWatch WatchKit Extension.appex */,
+				0A6EC6D422C92795000DCE9D /* BookStoreWatchN.app */,
+				0A6EC6E022C92796000DCE9D /* BookStoreWatchN Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8127A422C9129B00DE081A /* BookStoreWatch */ = {
+			isa = PBXGroup;
+			children = (
+				0A8127A522C9129B00DE081A /* AppDelegate.swift */,
+				0A8127A722C9129B00DE081A /* ViewController.swift */,
+				0A8127A922C9129B00DE081A /* Main.storyboard */,
+				0A8127AC22C9129C00DE081A /* Assets.xcassets */,
+				0A8127AE22C9129C00DE081A /* LaunchScreen.storyboard */,
+				0A8127B122C9129C00DE081A /* Info.plist */,
+			);
+			path = BookStoreWatch;
+			sourceTree = "<group>";
+		};
+		0A8127B822C9129D00DE081A /* BookStoreWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0A8127B922C9129D00DE081A /* Interface.storyboard */,
+				0A8127BC22C9129D00DE081A /* Assets.xcassets */,
+				0A8127BE22C9129D00DE081A /* Info.plist */,
+			);
+			path = "BookStoreWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		0A8127C722C9129D00DE081A /* BookStoreWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A8127C822C9129D00DE081A /* InterfaceController.swift */,
+				0A8127E022C9161800DE081A /* Book.swift */,
+				0A8127E122C9161800DE081A /* BookStore.swift */,
+				0A8127CA22C9129D00DE081A /* ExtensionDelegate.swift */,
+				0A8127CC22C9129E00DE081A /* Assets.xcassets */,
+				0A8127CE22C9129E00DE081A /* Info.plist */,
+				0A8127E422C91D1600DE081A /* DetailController.swift */,
+			);
+			path = "BookStoreWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A6EC6D322C92795000DCE9D /* BookStoreWatchN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6EC6F522C92797000DCE9D /* Build configuration list for PBXNativeTarget "BookStoreWatchN" */;
+			buildPhases = (
+				0A6EC6D222C92795000DCE9D /* Resources */,
+				0A6EC6F422C92797000DCE9D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6EC6E322C92796000DCE9D /* PBXTargetDependency */,
+			);
+			name = BookStoreWatchN;
+			productName = BookStoreWatchN;
+			productReference = 0A6EC6D422C92795000DCE9D /* BookStoreWatchN.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0A6EC6DF22C92796000DCE9D /* BookStoreWatchN Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6EC6F322C92797000DCE9D /* Build configuration list for PBXNativeTarget "BookStoreWatchN Extension" */;
+			buildPhases = (
+				0A6EC6DC22C92796000DCE9D /* Sources */,
+				0A6EC6DD22C92796000DCE9D /* Frameworks */,
+				0A6EC6DE22C92796000DCE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BookStoreWatchN Extension";
+			productName = "BookStoreWatchN Extension";
+			productReference = 0A6EC6E022C92796000DCE9D /* BookStoreWatchN Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		0A8127A122C9129B00DE081A /* BookStoreWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8127D922C9129E00DE081A /* Build configuration list for PBXNativeTarget "BookStoreWatch" */;
+			buildPhases = (
+				0A81279E22C9129B00DE081A /* Sources */,
+				0A81279F22C9129B00DE081A /* Frameworks */,
+				0A8127A022C9129B00DE081A /* Resources */,
+				0A8127D822C9129E00DE081A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8127B722C9129C00DE081A /* PBXTargetDependency */,
+				0A6EC6ED22C92797000DCE9D /* PBXTargetDependency */,
+			);
+			name = BookStoreWatch;
+			productName = BookStoreWatch;
+			productReference = 0A8127A222C9129B00DE081A /* BookStoreWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A8127B322C9129C00DE081A /* BookStoreWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8127D522C9129E00DE081A /* Build configuration list for PBXNativeTarget "BookStoreWatch WatchKit App" */;
+			buildPhases = (
+				0A8127B222C9129C00DE081A /* Resources */,
+				0A8127D422C9129E00DE081A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8127C622C9129D00DE081A /* PBXTargetDependency */,
+			);
+			name = "BookStoreWatch WatchKit App";
+			productName = "BookStoreWatch WatchKit App";
+			productReference = 0A8127B422C9129C00DE081A /* BookStoreWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0A8127C222C9129D00DE081A /* BookStoreWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8127D122C9129E00DE081A /* Build configuration list for PBXNativeTarget "BookStoreWatch WatchKit Extension" */;
+			buildPhases = (
+				0A8127BF22C9129D00DE081A /* Sources */,
+				0A8127C022C9129D00DE081A /* Frameworks */,
+				0A8127C122C9129D00DE081A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BookStoreWatch WatchKit Extension";
+			productName = "BookStoreWatch WatchKit Extension";
+			productReference = 0A8127C322C9129D00DE081A /* BookStoreWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A81279A22C9129B00DE081A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kyrhee Powell";
+				TargetAttributes = {
+					0A6EC6D322C92795000DCE9D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0A6EC6DF22C92796000DCE9D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0A8127A122C9129B00DE081A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0A8127B322C9129C00DE081A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0A8127C222C9129D00DE081A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A81279D22C9129B00DE081A /* Build configuration list for PBXProject "BookStoreWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A81279922C9129B00DE081A;
+			productRefGroup = 0A8127A322C9129B00DE081A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A8127A122C9129B00DE081A /* BookStoreWatch */,
+				0A8127B322C9129C00DE081A /* BookStoreWatch WatchKit App */,
+				0A8127C222C9129D00DE081A /* BookStoreWatch WatchKit Extension */,
+				0A6EC6D322C92795000DCE9D /* BookStoreWatchN */,
+				0A6EC6DF22C92796000DCE9D /* BookStoreWatchN Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A6EC6D222C92795000DCE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6EC6DA22C92796000DCE9D /* Assets.xcassets in Resources */,
+				0A6EC6D822C92795000DCE9D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6EC6DE22C92796000DCE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6EC6EA22C92797000DCE9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8127A022C9129B00DE081A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8127B022C9129C00DE081A /* LaunchScreen.storyboard in Resources */,
+				0A8127AD22C9129C00DE081A /* Assets.xcassets in Resources */,
+				0A8127AB22C9129B00DE081A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8127B222C9129C00DE081A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8127BD22C9129D00DE081A /* Assets.xcassets in Resources */,
+				0A8127BB22C9129D00DE081A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8127C122C9129D00DE081A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8127CD22C9129E00DE081A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6EC6DC22C92796000DCE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6EC6E822C92796000DCE9D /* ExtensionDelegate.swift in Sources */,
+				0A6EC6E622C92796000DCE9D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A81279E22C9129B00DE081A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8127A822C9129B00DE081A /* ViewController.swift in Sources */,
+				0A8127A622C9129B00DE081A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8127BF22C9129D00DE081A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8127CB22C9129D00DE081A /* ExtensionDelegate.swift in Sources */,
+				0A8127C922C9129D00DE081A /* InterfaceController.swift in Sources */,
+				0A8127E322C9161800DE081A /* BookStore.swift in Sources */,
+				0A8127E522C91D1600DE081A /* DetailController.swift in Sources */,
+				0A8127E222C9161800DE081A /* Book.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A6EC6E322C92796000DCE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A6EC6DF22C92796000DCE9D /* BookStoreWatchN Extension */;
+			targetProxy = 0A6EC6E222C92796000DCE9D /* PBXContainerItemProxy */;
+		};
+		0A6EC6ED22C92797000DCE9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A6EC6D322C92795000DCE9D /* BookStoreWatchN */;
+			targetProxy = 0A6EC6EC22C92797000DCE9D /* PBXContainerItemProxy */;
+		};
+		0A8127B722C9129C00DE081A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8127B322C9129C00DE081A /* BookStoreWatch WatchKit App */;
+			targetProxy = 0A8127B622C9129C00DE081A /* PBXContainerItemProxy */;
+		};
+		0A8127C622C9129D00DE081A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8127C222C9129D00DE081A /* BookStoreWatch WatchKit Extension */;
+			targetProxy = 0A8127C522C9129D00DE081A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A6EC6D622C92795000DCE9D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6EC6D722C92795000DCE9D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		0A8127A922C9129B00DE081A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8127AA22C9129B00DE081A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A8127AE22C9129C00DE081A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8127AF22C9129C00DE081A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0A8127B922C9129D00DE081A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8127BA22C9129D00DE081A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A6EC6EF22C92797000DCE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				IBSC_MODULE = BookStoreWatchN_Extension;
+				INFOPLIST_FILE = BookStoreWatchN/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		0A6EC6F022C92797000DCE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				IBSC_MODULE = BookStoreWatchN_Extension;
+				INFOPLIST_FILE = BookStoreWatchN/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		0A6EC6F122C92797000DCE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				INFOPLIST_FILE = "BookStoreWatchN Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		0A6EC6F222C92797000DCE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				INFOPLIST_FILE = "BookStoreWatchN Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		0A8127CF22C9129E00DE081A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A8127D022C9129E00DE081A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A8127D222C9129E00DE081A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				INFOPLIST_FILE = "BookStoreWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		0A8127D322C9129E00DE081A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				INFOPLIST_FILE = "BookStoreWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		0A8127D622C9129E00DE081A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				IBSC_MODULE = BookStoreWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "BookStoreWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		0A8127D722C9129E00DE081A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				IBSC_MODULE = BookStoreWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "BookStoreWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		0A8127DA22C9129E00DE081A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				INFOPLIST_FILE = BookStoreWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A8127DB22C9129E00DE081A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8RMCCPV5X;
+				INFOPLIST_FILE = BookStoreWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TranslatedIdeas.BookStoreWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A6EC6F322C92797000DCE9D /* Build configuration list for PBXNativeTarget "BookStoreWatchN Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6EC6F122C92797000DCE9D /* Debug */,
+				0A6EC6F222C92797000DCE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6EC6F522C92797000DCE9D /* Build configuration list for PBXNativeTarget "BookStoreWatchN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6EC6EF22C92797000DCE9D /* Debug */,
+				0A6EC6F022C92797000DCE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A81279D22C9129B00DE081A /* Build configuration list for PBXProject "BookStoreWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8127CF22C9129E00DE081A /* Debug */,
+				0A8127D022C9129E00DE081A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8127D122C9129E00DE081A /* Build configuration list for PBXNativeTarget "BookStoreWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8127D222C9129E00DE081A /* Debug */,
+				0A8127D322C9129E00DE081A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8127D522C9129E00DE081A /* Build configuration list for PBXNativeTarget "BookStoreWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8127D622C9129E00DE081A /* Debug */,
+				0A8127D722C9129E00DE081A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8127D922C9129E00DE081A /* Build configuration list for PBXNativeTarget "BookStoreWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8127DA22C9129E00DE081A /* Debug */,
+				0A8127DB22C9129E00DE081A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A81279A22C9129B00DE081A /* Project object */;
+}
