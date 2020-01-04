@@ -1,0 +1,5 @@
+Github Libraries for Potential Use: 
+
+1. https://github.com/salmaanahmed/PaginatedTableView - paginated table view
+2. https://stackoverflow.com/questions/26686031/scroll-vertically-in-a-uiscrollview-with-vertical-paging-enabled
+3. https://robkerr.com/configuring-a-uiscrollview-in-a-storyboard-with-no-code/
